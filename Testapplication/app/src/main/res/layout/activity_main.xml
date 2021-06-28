@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".Activity.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/BT_CONNECT"
+        android:text="Connect Device"
+        android:layout_marginHorizontal="15dp"
+        android:enabled="false"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/batterylevel"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text=""
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+    <TextView
+        android:id="@+id/devicetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center"
+        android:textSize="15sp"
+        />
+
+        <Button
+            android:id="@+id/setdevicetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Set Time"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/devicenametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/setdevicename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Set Device Name"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/myprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="My Profile"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/deviceinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Device Info"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/targetsteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Target Steps"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/restorefactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Restore Factory Settings"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/mcusoftreset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="MCU Soft Reset"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/transmitmotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Transmit Motor Vibration Signal"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/heartrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Heart Rate Period"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Alarm"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Third Party Reminder"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/exerciseperiod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Exercise Period"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape"
+            />
+
+
+        <TextView
+            android:id="@+id/stepstable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calories"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="4dp"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/caloriestable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="4dp"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/distancetable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="4dp"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/timetable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Active Time"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/activetable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart Rate"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/heartratetable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="4dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+
+
+            <TextView
+                android:id="@+id/temptable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="4dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/cell_shape"
+                />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/recordtemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record Temperature"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/mainstartbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="20dp"
+    >
+    <Button
+        android:id="@+id/stepdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step Data"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/heartdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Data"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="10dp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/exercisedata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise Data"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/totaldata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Data"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

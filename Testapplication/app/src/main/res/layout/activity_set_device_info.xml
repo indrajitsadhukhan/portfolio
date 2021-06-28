@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SetDeviceInfoActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Format"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="35dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:id="@+id/edittimeformat"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/format12h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 Hour"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/format24h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 Hour"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Screen Brightness">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editscreenbrightness"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Dial Interface">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editdialinterface"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Base Heart Rate">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editbaseheartrate"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/socialdistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:text="Social Distance"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/chineeseEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Chineese/English"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/farenheitcent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Farenheit/Centigrade"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/brightScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Bright Screen"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/nightmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Night Mode"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/horizontalscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Horizontal Screen"
+        />
+    <Button
+        android:id="@+id/submitdeviceinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
+</ScrollView>

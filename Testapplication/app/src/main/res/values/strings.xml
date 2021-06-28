@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Testapplication</string>
+    <string name="connectting">Connecting..</string>
+    <string name="ble_not_supported">BLE NOT SUPPORTED</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="pair_device">Pair Device</string>
+</resources>

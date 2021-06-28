@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HeartDataActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_history"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="History" />
+
+        <RadioButton
+            android:layout_margin="8dp"
+            android:id="@+id/radio_once"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Once" />
+    </RadioGroup>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/RecyclerView_heartData"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+    <Button
+        android:layout_width="match_parent"
+        android:text="Read"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:id="@+id/bt_readData"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Clear all"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="1"
+        android:id="@+id/bt_DeleteData"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
