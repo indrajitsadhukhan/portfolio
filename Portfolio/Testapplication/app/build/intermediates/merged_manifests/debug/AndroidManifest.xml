@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.example.testapplication.Myapp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Testapplication" >
+        <activity android:name="com.example.testapplication.Activity.SetExercisePeriodActivity" />
+        <activity android:name="com.example.testapplication.Activity.GetExercisePeriodActivity" />
+        <activity android:name="com.example.testapplication.Activity.ThirdPartyReminderActivity" />
+        <activity android:name="com.example.testapplication.Activity.AlarmSetActivity" />
+        <activity android:name="com.example.testapplication.Activity.AlarmListActivity" />
+        <activity android:name="com.example.testapplication.Activity.ReadAlarmActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetHeartRateActivity" />
+        <activity android:name="com.example.testapplication.Activity.GetHeartRateActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetTransmitMotorVibrationActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetTargetStepsActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetDeviceNameActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetDeviceInfoActivity" />
+        <activity android:name="com.example.testapplication.Activity.GetDeviceInfoActivity" />
+        <activity android:name="com.example.testapplication.Activity.SetProfileActivity" />
+        <activity android:name="com.example.testapplication.Activity.GetProfileActivity" />
+        <activity android:name="com.example.testapplication.Activity.DeviceScanActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.testapplication.Activity.MainActivity" />
+
+        <service android:name="com.example.testapplication.Ble.BleService" />
+    </application>
+
+</manifest>

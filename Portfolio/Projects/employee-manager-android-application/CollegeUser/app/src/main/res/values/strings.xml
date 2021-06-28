@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CollegeUser</string>
+    <string name="bold" tools:ignore="ReferenceType"> @font/latobold </string>
+    <string name="regular" tools:ignore="ReferenceType"> @font/latoregular </string>
+    <string name="light" tools:ignore="ReferenceType"> @font/latolight </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+    <string name="close">close</string>
+    <string name="college_contact">Indian Institute of Engineering Science and Technology, Shibpur\n\n
+P.O. - Botanic Garden\n
+Howrah - 711 103\n
+West Bengal, India\n\n
+Phone: +91 (033) 2668 4561 to 63\n
+Fax: +91 (033) 2668 2916
+ </string>
+    <string name="about_college">IIEST, Shibpur
+Indian Institute of Engineering Science and Technology, Shibpur
+(Formerly Bengal Engineering and Science University, Shibpur)
+Empowering the nation since 1856
+</string>
+    <string name="about_computer_science">The Department of Computer Science and Technology (CST) was established in 1982. Since its inception, the department has played an important role in developing a vibrant and forward-looking academic environment. Currently, the department offers B.Tech, M.Tech, and PhD programs.The department always maintains state of the art infrastructure and facilities for advanced research and consultancy. The department was accredited by the National Board of Accreditation (NBA) as an \'A\' grade department and received ISO 9000 certification in 1999-2000. The department was also honored as the DST-FIST sponsored department in 2004. The department was ranked 10 in a nationwide survey conducted by Silicon India in 2012.
+</string>
+    <string name="about_mechanical">The Department of Computer Science and Technology (CST) was established in 1982. Since its inception, the department has played an important role in developing a vibrant and forward-looking academic environment. Currently, the department offers B.Tech, M.Tech, and PhD programs.
+
+The department always maintains state of the art infrastructure and facilities for advanced research and consultancy. The department was accredited by the National Board of Accreditation (NBA) as an \'A\' grade department and received ISO 9000 certification in 1999-2000. The department was also honored as the DST-FIST sponsored department in 2004. The department was ranked 10 in a nationwide survey conducted by Silicon India in 2012.
+</string>
+</resources>

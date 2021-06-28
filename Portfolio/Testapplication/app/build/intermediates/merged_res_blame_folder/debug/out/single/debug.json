@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_target_steps.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_target_steps.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exercise_period.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_exercise_period.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_notify.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\item_notify.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_heart_rate.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_heart_rate.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cell_shape.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\drawable\\cell_shape.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alarm_set2.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_alarm_set2.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_info.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_device_info.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_device_info.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_device_info.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_read_alarm.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_read_alarm.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_cmd.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\item_cmd.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_bluetooth_device_row.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\bluetooth_device_row.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_exercise_period.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_exercise_period.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_scan.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_device_scan.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alarm_list.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_alarm_list.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_transmit_motor_vibration.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_transmit_motor_vibration.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_third_party_reminder.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_third_party_reminder.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_delete.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\delete.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_clock_set.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_clock_set.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_clock.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\item_clock.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_profile.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_profile.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_get_profile.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_get_profile.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_device_name.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_set_device_name.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_arrow.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\arrow.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_clock_week.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\item_clock_week.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alarm_set.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_alarm_set.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_delete.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_heart_rate.xml.flat",
+        "source": "D:\\0000Eco\\Portfolio\\Testapplication\\app\\src\\main\\res\\layout\\activity_heart_rate.xml"
+    }
+]

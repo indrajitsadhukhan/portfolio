@@ -1,0 +1,86 @@
+com/example/testapplication/Activity/GetProfileActivity.java
+ com.example.testapplication.Activity.GetProfileActivity
+com/example/testapplication/Activity/BaseActivity.java
+ com.example.testapplication.Activity.BaseActivity
+ com.example.testapplication.Activity.BaseActivity$1
+com/example/testapplication/Adapters/ClockAdapter.java
+ com.example.testapplication.Adapters.ClockAdapter
+ com.example.testapplication.Adapters.ClockAdapter$ViewHolder
+ com.example.testapplication.Adapters.ClockAdapter$onClockItemClickListener
+com/example/testapplication/Util/RxBus.java
+ com.example.testapplication.Util.RxBus
+com/example/testapplication/Activity/GetExercisePeriodActivity.java
+ com.example.testapplication.Activity.GetExercisePeriodActivity
+com/example/testapplication/Activity/SetHeartRateActivity.java
+ com.example.testapplication.Activity.SetHeartRateActivity
+com/example/testapplication/Util/BleData.java
+ com.example.testapplication.Util.BleData
+com/example/testapplication/Adapters/MainAdapter.java
+ com.example.testapplication.Adapters.MainAdapter
+ com.example.testapplication.Adapters.MainAdapter$CmdViewHolder
+ com.example.testapplication.Adapters.MainAdapter$onItemClickListener
+com/example/testapplication/Activity/SetTransmitMotorVibrationActivity.java
+ com.example.testapplication.Activity.SetTransmitMotorVibrationActivity
+com/example/testapplication/Adapters/NotifyAdapter.java
+ com.example.testapplication.Adapters.NotifyAdapter
+ com.example.testapplication.Adapters.NotifyAdapter$ViewHolder
+com/example/testapplication/Ble/BleManager.java
+ com.example.testapplication.Ble.BleManager
+ com.example.testapplication.Ble.BleManager$1
+com/example/testapplication/Activity/AlarmSetActivity.java
+ com.example.testapplication.Activity.AlarmSetActivity
+com/example/testapplication/Activity/ThirdPartyReminderActivity.java
+ com.example.testapplication.Activity.ThirdPartyReminderActivity
+com/example/testapplication/Adapters/ClockWeekAdapter.java
+ com.example.testapplication.Adapters.ClockWeekAdapter
+ com.example.testapplication.Adapters.ClockWeekAdapter$1
+ com.example.testapplication.Adapters.ClockWeekAdapter$ViewHolder
+com/example/testapplication/Activity/SetTargetStepsActivity.java
+ com.example.testapplication.Activity.SetTargetStepsActivity
+com/example/testapplication/Adapters/BluetoothDeviceAdapter.java
+ com.example.testapplication.Adapters.BluetoothDeviceAdapter
+ com.example.testapplication.Adapters.BluetoothDeviceAdapter$1
+ com.example.testapplication.Adapters.BluetoothDeviceAdapter$ViewHolder
+com/example/testapplication/Activity/SetDeviceNameActivity.java
+ com.example.testapplication.Activity.SetDeviceNameActivity
+com/example/testapplication/Activity/SetExercisePeriodActivity.java
+ com.example.testapplication.Activity.SetExercisePeriodActivity
+com/example/testapplication/Activity/AlarmListActivity.java
+ com.example.testapplication.Activity.AlarmListActivity
+com/example/testapplication/Activity/GetDeviceInfoActivity.java
+ com.example.testapplication.Activity.GetDeviceInfoActivity
+com/example/testapplication/Myapp.java
+ com.example.testapplication.Myapp
+com/example/testapplication/Activity/SetDeviceInfoActivity.java
+ com.example.testapplication.Activity.SetDeviceInfoActivity
+com/example/testapplication/Ble/BleService.java
+ com.example.testapplication.Ble.BleService
+ com.example.testapplication.Ble.BleService$1
+ com.example.testapplication.Ble.BleService$2
+ com.example.testapplication.Ble.BleService$LocalBinder
+com/example/testapplication/Util/SchedulersTransformer.java
+ com.example.testapplication.Util.SchedulersTransformer
+ com.example.testapplication.Util.SchedulersTransformer$1
+com/example/testapplication/Activity/MainActivity.java
+ com.example.testapplication.Activity.MainActivity
+ com.example.testapplication.Activity.MainActivity$1
+ com.example.testapplication.Activity.MainActivity$2
+ com.example.testapplication.Activity.MainActivity$2$1
+com/example/testapplication/Util/Utils.java
+ com.example.testapplication.Util.Utils
+com/example/testapplication/Activity/DeviceScanActivity.java
+ com.example.testapplication.Activity.DeviceScanActivity
+ com.example.testapplication.Activity.DeviceScanActivity$1
+ com.example.testapplication.Activity.DeviceScanActivity$2
+ com.example.testapplication.Activity.DeviceScanActivity$3
+ com.example.testapplication.Activity.DeviceScanActivity$3$1
+com/example/testapplication/Activity/GetHeartRateActivity.java
+ com.example.testapplication.Activity.GetHeartRateActivity
+com/example/testapplication/Activity/SetProfileActivity.java
+ com.example.testapplication.Activity.SetProfileActivity
+com/example/testapplication/Activity/ReadAlarmActivity.java
+ com.example.testapplication.Activity.ReadAlarmActivity
+com/example/testapplication/Util/ResolveData.java
+ com.example.testapplication.Util.ResolveData
+com/example/testapplication/BuildConfig.java
+ com.example.testapplication.BuildConfig

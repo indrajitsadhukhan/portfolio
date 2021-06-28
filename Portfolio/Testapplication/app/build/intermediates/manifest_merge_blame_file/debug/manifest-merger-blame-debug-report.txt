@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:5:5-68
+11-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:6:5-74
+12-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:10:5-43:19
+17        android:name="com.example.testapplication.Myapp"
+17-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:11:9-30
+18        android:allowBackup="true"
+18-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\Ipsita\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Testapplication" >
+26-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:17:9-53
+27        <activity android:name="com.example.testapplication.Activity.SetExercisePeriodActivity" />
+27-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:18:9-81
+27-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:18:19-69
+28        <activity android:name="com.example.testapplication.Activity.GetExercisePeriodActivity" />
+28-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:19:9-72
+28-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:19:19-69
+29        <activity android:name="com.example.testapplication.Activity.ThirdPartyReminderActivity" />
+29-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:20:9-73
+29-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:20:19-70
+30        <activity android:name="com.example.testapplication.Activity.AlarmSetActivity" />
+30-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:21:9-63
+30-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:21:19-60
+31        <activity android:name="com.example.testapplication.Activity.AlarmListActivity" />
+31-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:22:9-64
+31-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:22:19-61
+32        <activity android:name="com.example.testapplication.Activity.ReadAlarmActivity" />
+32-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:23:9-64
+32-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:23:19-61
+33        <activity android:name="com.example.testapplication.Activity.SetHeartRateActivity" />
+33-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:24:9-67
+33-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:24:19-64
+34        <activity android:name="com.example.testapplication.Activity.GetHeartRateActivity" />
+34-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:25:9-67
+34-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:25:19-64
+35        <activity android:name="com.example.testapplication.Activity.SetTransmitMotorVibrationActivity" />
+35-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:26:9-80
+35-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:26:19-77
+36        <activity android:name="com.example.testapplication.Activity.SetTargetStepsActivity" />
+36-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:27:9-69
+36-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:27:19-66
+37        <activity android:name="com.example.testapplication.Activity.SetDeviceNameActivity" />
+37-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:28:9-68
+37-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:28:19-65
+38        <activity android:name="com.example.testapplication.Activity.SetDeviceInfoActivity" />
+38-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:29:9-68
+38-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:29:19-65
+39        <activity android:name="com.example.testapplication.Activity.GetDeviceInfoActivity" />
+39-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:30:9-68
+39-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:30:19-65
+40        <activity android:name="com.example.testapplication.Activity.SetProfileActivity" />
+40-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:31:9-65
+40-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:31:19-62
+41        <activity android:name="com.example.testapplication.Activity.GetProfileActivity" />
+41-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:32:9-65
+41-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:32:19-62
+42        <activity android:name="com.example.testapplication.Activity.DeviceScanActivity" >
+42-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:33:9-39:20
+42-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:33:19-62
+43            <intent-filter>
+43-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:34:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:35:17-69
+44-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:37:17-77
+46-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:37:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.testapplication.Activity.MainActivity" />
+49-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:40:9-59
+49-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:40:19-56
+50
+51        <service android:name="com.example.testapplication.Ble.BleService" />
+51-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:42:9-51
+51-->D:\0000Eco\Portfolio\Testapplication\app\src\main\AndroidManifest.xml:42:18-48
+52    </application>
+53
+54</manifest>
